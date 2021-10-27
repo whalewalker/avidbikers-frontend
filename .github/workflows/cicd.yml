@@ -10,8 +10,9 @@ on:
     branches: [ main, develop ]
 
 jobs:
-  build:
-
+   buildAndTest:
+    name: Build and Test
+    
     runs-on: ubuntu-latest
 
 
